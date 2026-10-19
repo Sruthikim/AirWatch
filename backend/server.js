@@ -467,6 +467,7 @@ app.get("/api/routes-check", (req, res) => {
 // ========================================
 // Start backend
 // ========================================
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
   console.log(`AirWatch backend running on port ${PORT}`);
   console.log("Loaded server file:", __filename);
