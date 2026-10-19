@@ -15,7 +15,7 @@ import PollutionOverview from "./components/PollutionOverview";
 import cityTrendData from "./data/cityTrendData";
 import LocationSelector from "./components/LocationSelector";
 
-const API_BASE_URL = "http://localhost:5001";
+const API_BASE_URL = "https://airwatch-backend-qrhq.onrender.com";
 const defaultCenter = [13.0827, 80.2707];
 
 const stationIcon = L.divIcon({
